@@ -11,7 +11,7 @@
         <form>
             <div>
                 <input type="text" placeholder="Digite seu nome" class="inputs">
-                <span class="span-required">Nome deve ter no minímo 3 caracteres</span>
+                <span class="span-required">Nome deve ter no mínimo 3 caracteres</span>
             </div>
             <div>
                 <input type="email" placeholder="Digite seu melhor email" class="inputs">
@@ -19,11 +19,11 @@
             </div>
             <div>
                 <input type="password" placeholder="Digite sua senha" class="inputs">
-                <span class="span-required">Senha deve ter no minímo 6 caracteres</span>
+                <span class="span-required">Senha deve ter no mínimo 6 caracteres</span>
             </div>
             <div>
-                <input type="password" placeholder="Repita sua senha" class="input">
-                <span class="span-required">Senhas devem ser compátiveis</span>
+                <input type="password" placeholder="Repita sua senha" class="inputs">
+                <span class="span-required">Senhas devem ser compatíveis</span>
             </div>
             <textarea name="descricao" id="descricao" cols="25" rows="10" placeholder="Fale um pouco sobre você..."></textarea>
              <p>Sexo:</p>
@@ -32,6 +32,31 @@
                     <input type="radio" id="m" value="m" name="sexo">
                     <label for="m">Masculino</label>
                 </div>
+                <div>
+                    <input type="radio" id="f" value="f" name="sexo">
+                    <label for="f">Feminino</label>
+                </div>
+                <div>
+                    <input type="radio" id="o" value="o" name="sexo">
+                    <label for="o">Outro</label>
+                </div>
+             </div>
+             <p>Quais suas experiências?</p>
+             <div> class="box-select">
+                <div>
+                    <input type="checkbox" id="Html" value="Html" name="experiencias">
+                    <label for="Html">Html</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Css" value="Css" name="experiencias">
+                    <label for="Css">CSs</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="JS" value="JS" name="experiencias">
+                    <label for="JS">JS</label>
+                </div>
+                <div><input type="checkbox" id="Python" value="Python" name="experiencias">
+                <label for="Python">Python</label></div>
              </div>
        </form>
     </div>
