@@ -44,6 +44,9 @@ h1{
 }
 
 .span-required{
+    font-size: 12px;
+    margin: 3px 0 0 1px;
+    color: var(--color-red);
     display: none;
 }
 
